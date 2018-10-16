@@ -1,0 +1,10 @@
+{
+    "entry": "main.pl",
+    "map": {
+        "::": "this.",
+        ":::": "this.add.",
+        "#switch": "this.scene.start",
+        "#launch": "this.scene.launch",
+        "#camera": "this.scene.camera"
+    }
+}
