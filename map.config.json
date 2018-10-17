@@ -3,6 +3,7 @@
     "map": {
         "::": "this.",
         ":::": "this.add.",
+        "#start": "this.scene.start",
         "#switch": "this.scene.start",
         "#launch": "this.scene.launch",
         "#camera": "this.scene.camera"

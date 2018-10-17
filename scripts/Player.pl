@@ -7,7 +7,7 @@ class Player extends Phaser.Scene {
     init() {
         ::player = :::sprite(this.x, this.y, this.key);
         ::player.camera = #camera;
-        ::player = ::#camera;
+        // ::player = ::#camera;
         #start('Player-2', {});
         #launch('Player-3', {});
     }
